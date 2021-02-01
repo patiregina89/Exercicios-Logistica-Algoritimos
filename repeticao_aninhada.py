@@ -1,0 +1,9 @@
+tabuada = 1
+while tabuada<=10:
+    numero = 1
+    while numero <= 10:
+        print("%d x %d = %d"%(tabuada, numero, tabuada*numero))
+        numero = numero + 1
+        #numero += 1  ---> mesma coisa da sequencia acima
+    print("="*14)
+    tabuada+=1
